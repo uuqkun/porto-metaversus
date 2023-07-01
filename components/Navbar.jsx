@@ -1,15 +1,15 @@
 'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import styles from '../styles'
-import { navVariants } from '../utils/motion'
+import styles from '../styles';
+import { navVariants } from '../utils/motion';
 
 const Navbar = () => (
   <motion.nav
     variants={navVariants}
-    initial='hidden'
-    whileInView='show'
+    initial="hidden"
+    whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
@@ -19,7 +19,8 @@ const Navbar = () => (
       <img
         src="/search.svg"
         alt="search"
-        className="w-[24px] h-[24px] object-contain" />
+        className="w-[24px] h-[24px] object-contain"
+      />
 
       {/* centered site name */}
       <h2 className="font-extrabold leading-[30px] text-[24px] text-white">
@@ -30,7 +31,8 @@ const Navbar = () => (
       <img
         src="/menu.svg"
         alt="menu"
-        className="w-[24px] h-[24px] object-contain" />
+        className="w-[24px] h-[24px] object-contain"
+      />
     </div>
   </motion.nav>
 );
