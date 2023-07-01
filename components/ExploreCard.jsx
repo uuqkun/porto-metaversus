@@ -28,7 +28,8 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           <img
             src="/headset.svg"
             alt="headset"
-            className="w-1/2 h-1/2 object-contain" />
+            className="w-1/2 h-1/2 object-contain"
+          />
         </div>
 
         <p className="font-normal text-[16px] leading-[20px] text-white uppercase">
